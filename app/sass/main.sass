@@ -1,0 +1,81 @@
+@import "normalize"
+@import "vars"
+@import "fonts"
+@import "libs"
+@import '../img/sprite/sprite.css'
+
+::placeholder
+	color: #666
+
+::selection
+	color: #fff
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+
+a:hover
+	color: $red
+	text-decoration: none
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.txt-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+
+
+
+//header
+.b-header
+	background: $gray1
+.b-header__container
+	display: flex
+	justify-content: space-between
+.b-logo
+	padding: 6px 0
+.b-nav
+	padding: 0
+	margin: auto 0
+	list-style: none
+	li
+		display: inline-block
+.b-nav__link
+	font-size: 15px
+	color: $black
+	transition: 0.3s
+	&:hover
+		color: $red
+		text-decoration: none
+.b-phone
+	margin: auto 0
+	color: $black
+	transition: 0.3s
+	&:hover
+		color: $red
+		text-decoration: none
+.b-header__request-call
+	display: inline-flex
+	align-items: center
+	padding: 6px 12px
+	color: $white
+	background: $red
+	transition: 0.3s
+	&:hover
+		color: $white
+		background: $red2
+
+
+@import "media" // Always at the end
