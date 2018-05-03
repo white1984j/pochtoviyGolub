@@ -53,7 +53,37 @@
 			</div>
 		</header>
 		<main>
-			
+			<section class="b-main-section" style="background-image: url(img/main-section-bg.png)">
+				<div class="b-main-section__body">
+					<div class="container">
+						<div class="b-main-section__title">
+							<h1>Автомобильные грузоперевозки</h1>
+						</div>
+						<a href="#" class="btn btn--red">ПОЛУЧИТЬ РАСЧЕТ</a>
+						</div>
+					</div>
+				<div class="b-main-section__footer">
+					<div class="container">
+						<div class="row no-gutters">
+
+								<a href="#" class="col-md-6 b-main-section-link">
+									<i class="icon icon-flag-russia"></i>Перевозки по России
+									<span class="b-main-section-link__hidden">
+										<img src="img/map-russia.png" alt="img">
+									</span>
+								</a>
+
+								<a href="#" class="col-md-6 b-main-section-link">
+									<i class="icon icon-flag-sng"></i>Перевозки по СНГ
+									<span class="b-main-section-link__hidden">
+										<img src="img/map-sng.png" alt="img">
+									</span>
+								</a>
+
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer>
 			

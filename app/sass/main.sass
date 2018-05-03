@@ -19,9 +19,11 @@ body
 	overflow-x: hidden
 	color: $text
 
-a:hover
-	color: $red
-	text-decoration: none
+a
+	color: $blue
+	&:hover
+		color: $red
+		text-decoration: none
 
 .img-responsive
 	display: block
@@ -30,12 +32,35 @@ a:hover
 	&.img-width
 		width: 100%
 
-.txt-center
+.txt-c
 	text-align: center
 
 b, strong
 	font-weight: bold
 
+
+.icon
+	display: inline-block
+
+//btns
+.btn
+	display: inline-block
+	padding: 20px 50px
+	border-radius: 3px
+	transition: 0.3s
+.btn--red
+	background: $red
+	color: $white
+	&:hover
+		color: $white
+		background: $red2
+
+
+//titles
+h1
+	font-size: 45px
+	line-height: 1
+	font-weight: 300
 
 
 //header
@@ -45,7 +70,7 @@ b, strong
 	display: flex
 	justify-content: space-between
 .b-logo
-	padding: 6px 0
+	padding: 20px 0
 .b-nav
 	padding: 0
 	margin: auto 0
@@ -53,6 +78,8 @@ b, strong
 	li
 		display: inline-block
 .b-nav__link
+	display: inline-block
+	margin: 0 15px
 	font-size: 15px
 	color: $black
 	transition: 0.3s
@@ -61,6 +88,8 @@ b, strong
 		text-decoration: none
 .b-phone
 	margin: auto 0
+	font-size: 18px
+	font-weight: bold
 	color: $black
 	transition: 0.3s
 	&:hover
@@ -69,13 +98,76 @@ b, strong
 .b-header__request-call
 	display: inline-flex
 	align-items: center
-	padding: 6px 12px
+	padding: 10px 25px
 	color: $white
+	font-size: 13px
+	text-transform: uppercase
 	background: $red
 	transition: 0.3s
 	&:hover
 		color: $white
 		background: $red2
+
+
+
+//b-main-section__body
+.b-main-section
+	position: relative
+	background-repeat: no-repeat
+	background-position: top right
+	background-size: cover
+	color: $white
+	z-index: 1
+.b-main-section__body
+	padding: 120px 0
+	text-align: center
+.b-main-section__title
+	margin-bottom: 40px
+.b-main-section__footer
+	border-top: 1px solid $gray2
+.b-main-section-link
+	display: flex
+	padding: 55px 15px
+	color: $white
+	font-size: 24px
+	font-weight: bold
+	align-items: center
+	justify-content: center
+	transition: 0.3s
+	.icon
+		margin-right: 20px
+	&:nth-child(2n)
+		border-left: 1px solid $gray2
+		.b-main-section-link__hidden
+			left: auto
+			right: 0
+	&:hover
+		color: $white
+		background: $blue
+		.b-main-section-link__hidden
+			display: block
+		&:after
+			content: ""
+			display: inline-block
+			position: absolute
+			bottom: 0
+			left: 50%
+			width: 0
+			height: 0
+			transform: translateX(-50%)
+			border-left: 20px solid transparent
+			border-right: 20px solid transparent
+			border-bottom: 20px solid $white
+.b-main-section-link__hidden
+	display: none
+	position: absolute
+	top: 100%
+	left: 0
+	width: 1110px
+	max-width: 100vw
+	padding: 30px
+	background: $white
+	text-align: center
 
 
 @import "media" // Always at the end
