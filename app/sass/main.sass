@@ -46,8 +46,10 @@ b, strong
 .icon
 	display: inline-block
 
+p
+	margin-bottom: 0
 
-main
+.b-main
 	background: $gray4
 
 .pos-r
@@ -102,7 +104,7 @@ h2
 	transform: rotate(180deg)
 .slick-dots
 	padding: 0
-	margin-top: 20px
+	margin: 20px 0 0
 	text-align: center
 	li
 		display: inline-block
@@ -128,7 +130,7 @@ h2
 
 //sections
 .section-pad
-	padding: 60px 0
+	padding: 90px 0
 .section__title
 	margin-bottom: 20px
 
@@ -140,11 +142,16 @@ h2
 .b-header__container
 	display: flex
 	justify-content: space-between
+.b-header-main
+	display: flex
+	padding: 0 30px
+	justify-content: space-around
+	flex: 1 1 auto
 .b-logo
 	padding: 20px 0
 .b-nav
 	padding: 0
-	margin: auto 0
+	margin: auto -15px
 	list-style: none
 	li
 		display: inline-block
@@ -234,11 +241,13 @@ h2
 	position: absolute
 	top: 100%
 	left: 0
-	width: 1110px
+	width: 1150px
 	max-width: 100vw
 	padding: 30px
 	background: $white
 	text-align: center
+	box-shadow: 0px 14px 84px 0px rgba(7, 45, 72, 0.36);
+
 
 
 
@@ -278,6 +287,41 @@ h2
 	font-size: 13px
 
 
+
+
+
+
+//footer
+.b-footer
+	padding: 22px 0
+	background: $blue2
+	color: $gray6
+	font-size: 13px
+	a
+		color: $gray7
+		&:hover
+			color: $blue
+.b-footer-container
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-between
+.b-footer-path
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+.b-footer-logo
+	display: inline-block
+	margin-bottom: 15px
+	font-size: 16px
+.b-footer-nav
+	list-style: none
+	margin: 8px 0 0
+	padding: 0
+	a
+		color: $gray6
+		&:hover
+			color: $blue
+	
 
 
 @import "media" // Always at the end

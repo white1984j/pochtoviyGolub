@@ -14,6 +14,13 @@ $(function() {
           arrows: false,
           dots: true
         }
+      },{
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+          dots: true
+        },
       }
     ]
   })

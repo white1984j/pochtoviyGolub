@@ -34,25 +34,27 @@
 				<a href="/" class="b-logo">
 					<img src="img/logo.png" alt="img">
 				</a>
-				<ul class="b-nav">
-					<li>
-						<a href="#" class="b-nav__link">Клиентам</a>
-					</li>
-					<li>
-						<a href="#" class="b-nav__link">О компании</a>
-					</li>
-					<li>
-						<a href="#" class="b-nav__link">Карьера</a>
-					</li>
-					<li>
-						<a href="#" class="b-nav__link">Контакты</a>
-					</li>
-				</ul> 
-				<a href="tel:88311234567" class="b-phone">8 (831) 123-45-67</a>
+				<div class="b-header-main">
+					<ul class="b-nav">
+						<li>
+							<a href="#" class="b-nav__link">Клиентам</a>
+						</li>
+						<li>
+							<a href="#" class="b-nav__link">О компании</a>
+						</li>
+						<li>
+							<a href="#" class="b-nav__link">Карьера</a>
+						</li>
+						<li>
+							<a href="#" class="b-nav__link">Контакты</a>
+						</li>
+					</ul> 
+					<a href="tel:88311234567" class="b-phone">8 (831) 123-45-67</a>
+				</div>
 				<a href="#" class="b-header__request-call">ЗАКАЗАТЬ ЗВОНОК</a>
 			</div>
 		</header>
-		<main>
+		<main class="b-main">
 			<section class="b-main-section" style="background-image: url(img/main-section-bg.png)">
 				<div class="b-main-section__body">
 					<div class="container">
@@ -150,8 +152,68 @@
 				</div>
 			</section>
 		</main>
-		<footer class="">
-			
+		<footer class="b-footer">
+			<div class="container b-footer-container">
+				<div class="b-footer-path">
+					<div>
+						<a href="#" class="b-footer-logo">ООО “Почтовый голубь”</a>
+						<p>Все права защищены</p>
+					</div>
+					<div class="b-footer__confidentiality">
+						<p>Политика конфеденциальности</p>
+					</div>
+				</div>
+				<div class="b-footer-path">
+					<a href="#" class="b-footer-link">Главная</a>
+				</div>
+				<div class="b-footer-path">
+					<div>
+						<a href="#" class="b-footer-link">Клиентам </a>
+						<ul class="b-footer-nav">
+							<li>
+								<a href="#">Перевозки по РФ</a>
+							</li>
+							<li>
+								<a href="#">Перевозки по СНГ</a>
+							</li>
+							<li>
+								<a href="#">Рефрижираторные поезда</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="b-footer-path">
+					<div>
+						<a href="#" class="b-footer-link">О компании</a>
+						<ul class="b-footer-nav">
+							<li>
+								<a href="#">Автопарк</a>
+							</li>
+							<li>
+								<a href="#">География</a>
+							</li>
+							<li>
+								<a href="#">История</a>
+							</li>
+							<li>
+								<a href="#">Команда</a>
+							</li>
+							<li>
+								<a href="#">Документы</a>
+							</li>
+							<li>
+								<a href="#">Благодарственные письма</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="b-footer-path">
+					<a href="#" class="b-footer-link">Карьера</a>
+				</div>
+				<div class="b-footer-path">
+					<a href="#" class="b-footer-link">Контакты</a>
+				</div>
+			</div>
 		</footer>
 	</div>
 
