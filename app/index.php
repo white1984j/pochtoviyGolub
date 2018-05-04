@@ -86,17 +86,26 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-pad">
+			<section class="d-md-none">
+				<a href="#" class="menu-btn">Клиентам</a>
+				<a href="#" class="menu-btn">Клиентам</a>
+			</section>
+			<section class="section-pad-t section-pad-b">
 				<div class="container">
 					<div class="section__title txt-c">
 						<h2>Смотрите подробнее о нас:</h2>
 					</div>
-					<div>
-						video
+					<div class="txt-c">
+						<div class="b-video">
+							<img src="img/video.png" alt="img">
+							<button class="btn btn--red d-inline-flex align-items-center b-video__play">
+								<i class="icon icon-video-play"></i>
+							</button>
+						</div>
 					</div>
 				</div>
 			</section>
-			<section class="section-pad">
+			<section class="section-pad-b">
 				<div class="container">
 					<div class="section__title ">
 						<h2>Новости</h2>

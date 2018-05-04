@@ -60,6 +60,7 @@ p
 	display: inline-block
 	padding: 20px 50px
 	border-radius: 3px
+	border: none
 	transition: 0.3s
 .btn--red
 	background: $red
@@ -129,8 +130,10 @@ h2
 
 
 //sections
-.section-pad
-	padding: 90px 0
+.section-pad-t
+	padding-top: 90px
+.section-pad-b
+	padding-bottom: 90px
 .section__title
 	margin-bottom: 20px
 
@@ -149,6 +152,8 @@ h2
 	flex: 1 1 auto
 .b-logo
 	padding: 20px 0
+	img
+		max-width: 100%
 .b-nav
 	padding: 0
 	margin: auto -15px
@@ -322,6 +327,20 @@ h2
 		&:hover
 			color: $blue
 	
+
+
+
+//video
+.b-video
+	display: inline-block
+	position: relative
+	img
+		max-width: 100%
+.b-video__play
+	position: absolute
+	left: 50%
+	top: 50%
+	transform: translateX(-50%) translateY(-50%)
 
 
 @import "media" // Always at the end
