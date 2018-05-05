@@ -8,7 +8,7 @@
   .section-pad-t
     padding-top: 75px
   .section-pad-b
-    padding-top: 75px
+    padding-bottom: 75px
   .b-header-main
     flex-direction: column
     justify-content: center
@@ -21,10 +21,16 @@
 
 // ≥992px
 +media-breakpoint-down(md)
+  .section-pad-t
+    padding-top: 60px
+  .section-pad-b
+    padding-bottom: 60px
   .news-preview-slider
     padding-bottom: 0
     .slick-dots
       margin-top: 50px
+  .b-thanks-slider
+    padding-bottom: 0
   .news-preview__show-all
     left: 50%
     bottom: 40px
@@ -45,13 +51,103 @@
     margin: 15px 0 25px
   .b-footer-logo
     margin-bottom: 5px
-
+  .b-logo
+    max-width: 160px
+  .b-header-main
+    padding: 0 15px
+  .b-nav
+    margin-left: -7px
+    margin-right: -7px
+  .b-nav__link
+    margin: 0 7px
+  .b-header__request-call
+    padding: 10px 15px
+  .b-main-section__body
+    padding: 90px 0
+  .b-advantages
+    padding: 25px
+    min-height: 295px
+  .b-believe-goods
+    margin-bottom: 0
 
 // ≥768px
 +media-breakpoint-down(sm)
+  .section-pad-t
+    padding-top: 45px
+  .section-pad-b
+    padding-bottom: 45px
+  h1
+    font-size: 32px
+  h2
+    font-size: 28px
+  .btn
+    padding: 16px 26px
+  .b-main-section__body
+    padding: 65px 0
+  .b-main-section__title
+    margin-bottom: 30px
+  .b-main-section__footer
+    .container
+      max-width: 100%
+      width: 100%
+      padding: 0
+  .b-main-section-link
+    padding: 25px 15px
+    font-size: 20px
+    font-weight: 300
+    &:nth-child(2n)
+      border-left: none
+      border-top: 1px solid $gray2
+  .news-preview
+    padding: 20px
+  .b-header-main
+    display: none
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    padding: 100px 0
+    background: $gray8
+    z-index: 2
+  .b-nav
+    li
+      display: block
+      text-align: center
+  .b-nav__link
+    margin: 10px 0
+  .b-logo
+    padding: 15px 0
+    margin-bottom: 5px
+  .b-header__request-call
+    margin-bottom: 20px
+    border-radius: 3px
+    text-align: center
+    justify-content: center
+    padding: 15px
+    font-size: 16px
+  .b-autopark-car-table
+    margin-bottom: 35px
+  .b-advantages
+    flex: 0 0 100%
+    max-width: 100%
+    & +  .b-advantages
+      margin-top: 25px
 
+
+  
 // ≥576px
 +media-breakpoint-down(xs)
+  .b-autopark-car-table
+    width: 100%
+    tr,
+    td
+      display: block
+      text-align: center
+      &:first-child
+        text-align: center
+      &:last-child
+        padding: 15px 0 0 0
+        
 
 
 /*==========  Mobile First  ==========*/

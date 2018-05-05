@@ -5,14 +5,21 @@
 @import '../img/sprite/sprite.css'
 
 ::placeholder
-	color: #666
+	color: $gray11
+	font-size: 13px
 
 ::selection
-	color: #fff
+	color: $white
+	background: $blue
 
 *
 	min-width: 0px
 	min-height: 0px
+
+button,
+input[type="submit"]
+	cursor: pointer
+
 
 body
 	font-size: 16px
@@ -55,6 +62,26 @@ p
 .pos-r
 	position: relative
 
+.p-0
+	padding: 0
+.mar-t-20
+	margin-top: 20px
+
+.z-index-3
+	z-index: 3
+
+.max-w-780px
+	width: 780px
+	max-width: 100%
+	margin: auto
+.max-w-860px
+	width: 860px
+	max-width: 100%
+	margin: auto
+.bg-gray
+	background: $gray4
+
+
 //btns
 .btn
 	display: inline-block
@@ -62,12 +89,20 @@ p
 	border-radius: 3px
 	border: none
 	transition: 0.3s
+.btn--sm
+	padding: 13px 35px
 .btn--red
 	background: $red
 	color: $white
 	&:hover
 		color: $white
 		background: $red2
+.btn--blue
+	background: $blue
+	color: $white
+	&:hover
+		color: $white
+		background: $blue3
 
 
 //titles
@@ -105,7 +140,7 @@ h2
 	transform: rotate(180deg)
 .slick-dots
 	padding: 0
-	margin: 20px 0 0
+	margin: 20px auto 0
 	text-align: center
 	li
 		display: inline-block
@@ -136,14 +171,26 @@ h2
 	padding-bottom: 90px
 .section__title
 	margin-bottom: 20px
+	& + .section__subtitle
+		margin-top: -22px
+		margin-bottom: 30px
+.section__subtitle
+	font-size: 21px
+	font-weight: 300
+.section--gray
+	background: $gray10
+.section--white
+	background: $white
 
 
 
 //header
 .b-header
 	background: $gray1
+	z-index: 1
 .b-header__container
 	display: flex
+	flex-wrap: wrap
 	justify-content: space-between
 .b-header-main
 	display: flex
@@ -190,6 +237,64 @@ h2
 	&:hover
 		color: $white
 		background: $red2
+.b-logo 
+	display: inline-block
+
+
+
+//hamburger
+.b-hamburger
+	display: flex
+	flex-direction: column
+	border: none
+	outline: none
+	background: none
+	cursor: pointer
+	&:focus
+		outline: none
+.b-hamburger__path
+	display: inline-block
+	width: 39px
+	height: 3px
+	background: $blue
+	border-radius: 3px
+	& + .b-hamburger__path
+		margin-top: 9px
+.b-hamburger.open .b-hamburger__path:nth-child(1) 
+	animation: rotate-b-hamburger-path-1 .5s
+	animation-fill-mode: forwards
+.b-hamburger.open .b-hamburger__path:nth-child(2) 
+	opacity: 0
+.b-hamburger.open .b-hamburger__path:nth-child(3) 
+	animation: rotate-b-hamburger-path-2 .5s
+	animation-fill-mode: forwards
+@keyframes rotate-b-hamburger-path-1
+	0
+		transform: translateY(12px)
+		background: $gray9
+	30%
+		transform: translateY(12px)
+		background: $gray9
+	60%
+		transform: translateY(12px)
+		background: $gray9
+	100%
+		transform: translateY(12px) rotate(45deg)
+		background: $gray9
+@keyframes rotate-b-hamburger-path-2
+	0
+		transform: translateY(-12px)
+		background: $gray9
+	30%
+		transform: translateY(-12px)
+		background: $gray9
+	60%
+		transform: translateY(-12px)
+		background: $gray9
+	100% 
+		transform: translateY(-12px) rotate(-45deg)
+		background: $gray9
+
 
 
 
@@ -233,7 +338,7 @@ h2
 			content: ""
 			display: inline-block
 			position: absolute
-			bottom: 0
+			bottom: -1px
 			left: 50%
 			width: 0
 			height: 0
@@ -241,6 +346,7 @@ h2
 			border-left: 20px solid transparent
 			border-right: 20px solid transparent
 			border-bottom: 20px solid $white
+			z-index: 1
 .b-main-section-link__hidden
 	display: none
 	position: absolute
@@ -251,7 +357,10 @@ h2
 	padding: 30px
 	background: $white
 	text-align: center
-	box-shadow: 0px 14px 84px 0px rgba(7, 45, 72, 0.36);
+	box-shadow: 0px 14px 84px 0px rgba(7, 45, 72, 0.36)
+	z-index: 1
+	img
+		max-width: 100%
 
 
 
@@ -265,9 +374,10 @@ h2
 		position: absolute
 		bottom: 0
 	.slick-arrow--prev
-		left: calc(50% - 25px)
+		left: 50%
+		transform: translateX(-100%)
 	.slick-arrow--next
-		left: calc(50% + 25px)
+		left: 50%
 .news-preview
 	margin: 0 15px
 	padding: 25px 35px
@@ -341,6 +451,191 @@ h2
 	left: 50%
 	top: 50%
 	transform: translateX(-50%) translateY(-50%)
+
+
+
+.menu-btn
+	display: block
+	margin: 8px 0
+	padding: 20px 10px
+	text-align: center
+	font-size: 20px
+	font-weight: 300
+	color: $white
+	background: $blue
+.menu-btn-2
+	background: $blue3
+.menu-btn-3
+	background: $blue4
+.menu-btn-4
+	background: $blue5
+
+
+
+//forms
+.b-label
+	display: block
+	margin-bottom: 28px
+.b-input
+	display: block
+	width: 100%
+	padding: 10px 17px
+	border: 1px solid $gray12
+	border-radius: 5px
+	background-color: $gray4
+	transition: 0.3s
+	&:focus
+		border: 1px solid $blue
+		outline: none
+		&::placeholder
+			color: transparent
+textarea.b-input
+	min-height: 110px
+	resize: none
+
+
+
+//b-category-preview
+.b-category-preview
+	text-align: center
+	margin: 10px 0 30px
+.b-category-preview__img
+	display: flex
+	margin-bottom: 10px
+	min-height: 100px
+	align-items: center
+	justify-content: center
+.b-category-preview__txt
+	font-size: 13px
+	color: $black
+
+
+
+
+//autopark
+.b-autopark-car-form
+	width: 395px
+	padding: 0 15px
+	max-width: 100%
+	margin: 30px auto
+.b-autopark-car-form__title
+	font-size: 24px
+	font-weight: 300
+.b-autopark-car-form__subtitle
+	margin-bottom: 20px
+	font-size: 13px
+
+.b-autopark-car-table
+	font-size: 13px
+	img
+		max-width: 100%
+	td
+		&:first-child
+			text-align: right
+		&:last-child
+			padding-left: 30px
+	tr + tr
+		td
+			padding-top: 30px
+
+
+
+//b-details
+.b-details
+	display: block
+	margin: 20px 0px
+	text-align: center
+.b-details__img
+	margin-bottom: 20px
+	min-height: 85px
+.b-details__txt
+	font-size: 13px
+	color: $black
+
+
+
+//b-advantages
+.b-advantages-wrap
+	display: flex
+	flex-wrap: wrap
+.b-advantages
+	display: flex
+	padding: 50px
+	flex-direction: column
+	justify-content: center
+	flex: 0 0 calc(100% / 3)
+	max-width: calc(100% / 3)
+	min-height: 370px
+	font-size: 13px
+	color: $white
+	background: $blue
+	&:nth-child(2)
+		background: $blue3
+	&:nth-child(3)
+		background: $blue5
+.b-advantages__title
+	margin-bottom: 10px
+	font-size: 24px
+	line-height: 1.2
+	font-weight: 300
+	color: $gray13
+
+
+
+
+
+//b-thanks-slider
+.b-thanks-slider
+	padding-bottom: 50px
+	img
+		max-width: 100%
+		margin: auto
+	.slick-arrow
+		position: absolute
+		bottom: 0
+	.slick-arrow--prev
+		left: 50%
+		transform: translateX(-100%)
+	.slick-arrow--next
+		left: 50%
+
+
+
+//b-info
+.b-info
+	width: 945px
+	max-width: 100%
+	padding: 40px
+	margin: auto
+	border: 1px solid $gray12
+	font-size: 18px
+	color: $black
+	p
+		margin-bottom: 10px
+	.btn
+		margin-top: 20px
+.b-info__title
+	margin-bottom: 30px
+	font-size: 30px
+	font-weight: 300
+	color: $black
+.b-info__tel
+	display: inline-block
+	margin-bottom: 15px
+	font-size: 30px
+	line-height: 1
+	font-weight: bold
+	color: $black
+
+
+
+.b-believe-goods
+	margin-bottom: 25px
+	text-align: center
+	img
+		max-width: 100%
+		margin: auto
+
 
 
 @import "media" // Always at the end
