@@ -29,6 +29,7 @@ $(function() {
   //thanks slider
   $('.b-thanks-slider').slick({
     slidesToShow: 4,
+    infinite: false,
     prevArrow: '<button class="slick-arrow slick-arrow--prev"><i class="icon icon-arrow-blue"></i></button>',
     nextArrow: '<button class="slick-arrow slick-arrow--next"><i class="icon icon-arrow-blue"></i></button>',
     responsive: [
@@ -108,6 +109,15 @@ $(function() {
       $('.b-header-main').slideUp();
     }
   });
+
+
+
+  //lightgallery
+  $('.js-gallery').lightGallery({
+    selector: ".js-lightgallery-item",
+    appendSubHtmlTo: '',
+    download: false
+  }); 
 
 
 });

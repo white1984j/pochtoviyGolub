@@ -17,7 +17,7 @@
 					</div>
 					<form class="max-w-780px">
 						<div class="row">
-							<div class="col-6">
+							<div class="col-12 col-sm-6">
 								<label class="b-label">
 									<input type="text" class="b-input" placeholder="Где будет загрузка?">
 								</label>
@@ -31,7 +31,7 @@
 									<input type="text" class="b-input" placeholder="Объем груза">
 								</label>
 							</div>
-							<div class="col-6">
+							<div class="col-12 col-sm-6">
 								<label class="b-label">
 									<input type="text" class="b-input" placeholder="Как Вас зовут?">
 								</label>
@@ -302,7 +302,7 @@
 					<div class="section__subtitle txt-c">
 						<p>и остались довольны</p>
 					</div>
-					<div class="row b-believe-goods-slider">
+					<div class="row b-believe-goods-slider js-gallery">
 						<div class="col-xl-3 col-md-4 col-sm-6 col-12 b-believe-goods">
 							<img src="img/believe-goods/believe-goods-1.png" alt="img">
 						</div>
@@ -333,31 +333,31 @@
 
 			<section class="section-pad-b">
 				<div class="container">
-					<div class="b-thanks-slider row">
-						<div class="col">
+					<div class="b-thanks-slider row js-gallery">
+						<a href="img/thanks/thanks-1.png"  class="col js-lightgallery-item">
 							<img src="img/thanks/thanks-1.png" alt="img">
-						</div>
-						<div class="col">
+						</a>
+						<a href="img/thanks/thanks-2.png" class="col js-lightgallery-item">
 							<img src="img/thanks/thanks-2.png" alt="img">
-						</div>
-						<div class="col">
+						</a>
+						<a href="img/thanks/thanks-3.png" class="col js-lightgallery-item">
 							<img src="img/thanks/thanks-3.png" alt="img">
-						</div>
-						<div class="col">
+						</a>
+						<a href="img/thanks/thanks-4.png" class="col js-lightgallery-item">
 							<img src="img/thanks/thanks-4.png" alt="img">
-						</div>
-						<div class="col">
+						</a>
+						<a href="img/thanks/thanks-1.png"  class="col js-lightgallery-item">
 							<img src="img/thanks/thanks-1.png" alt="img">
-						</div>
-						<div class="col">
+						</a>
+						<a href="img/thanks/thanks-2.png" class="col js-lightgallery-item">
 							<img src="img/thanks/thanks-2.png" alt="img">
-						</div>
-						<div class="col">
+						</a>
+						<a href="img/thanks/thanks-3.png" class="col js-lightgallery-item">
 							<img src="img/thanks/thanks-3.png" alt="img">
-						</div>
-						<div class="col">
+						</a>
+						<a href="img/thanks/thanks-4.png" class="col js-lightgallery-item">
 							<img src="img/thanks/thanks-4.png" alt="img">
-						</div>
+						</a>
 					</div>
 				</div>
 			</section>
