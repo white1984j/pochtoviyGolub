@@ -74,6 +74,11 @@ p
 .z-index-3
 	z-index: 3
 
+
+.max-w-950px
+	width: 950px
+	max-width: 100%
+	margin: auto
 .max-w-780px
 	width: 780px
 	max-width: 100%
@@ -171,8 +176,12 @@ h2
 //sections
 .section-pad-t
 	padding-top: 90px
+.section-pad-t--sm
+	padding-top: 50px
 .section-pad-b
 	padding-bottom: 90px
+.section-pad-b--sm
+	padding-bottom: 50px
 .section__title
 	margin-bottom: 20px
 	& + .section__subtitle
@@ -633,6 +642,17 @@ textarea.b-input
 		margin-bottom: 10px
 	.btn
 		margin-top: 20px
+.b-info--bg
+	padding: 50px
+.b-info--blue
+	background: $blue
+	border-color: $blue
+	color: $white
+	.b-info__title
+		margin-bottom: 10px
+		color: $white
+.b-info--tf-t
+	transform: translateY(-30px)
 .b-info__title
 	margin-bottom: 30px
 	font-size: 30px
@@ -659,6 +679,73 @@ textarea.b-input
 
 .lg-backdrop.in
 	opacity: 0.8
+
+
+
+//breadcrumbs
+.b-breadcrumbs
+	margin: 0px 0px 25px
+.b-breadcrumbs__ul
+	list-style: none
+	padding: 0
+	margin: 0
+.b-breadcrumbs__li
+	display: inline-block
+	margin: 0px 0px
+	& + .b-breadcrumbs__li:before
+		content: "->"
+		display: inline-block
+		margin: 0 4px
+	&:last-child
+		.b-breadcrumbs__link
+			text-decoration: none
+			pointer-events: none
+.b-breadcrumbs__link
+	font-size: 13px
+	text-decoration: underline
+	&:hover
+		text-decoration: none
+
+
+
+
+//preview car
+.b-preview-car
+	display: flex
+.b-preview-car__img
+	display: flex
+	padding: 20px 20px
+	min-height: 140px
+	justify-content: center
+	align-items: center
+	img
+		max-width: 100%
+.b-preview-car__txt
+	font-size: 13px
+	ul
+		list-style: none
+		padding: 0
+		margin: 0
+.b-preview-car--row
+	flex-direction: row
+	align-items: center
+	margin-bottom: 30px
+	.b-preview-car__img
+		flex: 0 0 57%
+		max-width: 57%
+		margin-right: 15px
+		border: 1px solid $gray14
+.b-preview-car--col
+	flex-direction: column
+	align-items: center
+	.b-preview-car__img
+		width: 100%
+		margin-bottom: 10px
+		border: 1px solid $gray15
+
+
+
+
 
 
 @import "media" // Always at the end

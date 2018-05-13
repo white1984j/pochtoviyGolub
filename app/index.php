@@ -12,6 +12,9 @@
 		<li>
 			<a href="transportation-russia.php">Перевозка по России</a>
 		</li>
+		<li>
+			<a href="autopark.php">Автопарк</a>
+		</li>
 	</ol>
 </body>
 </html>
