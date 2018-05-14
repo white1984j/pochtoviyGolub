@@ -18,6 +18,9 @@
 		<li>
 			<a href="thanksgiving-letters.php">Благодарственные письма</a>
 		</li>
+		<li>
+			<a href="vakancies.php">Вакансии</a>
+		</li>
 	</ol>
 </body>
 </html>

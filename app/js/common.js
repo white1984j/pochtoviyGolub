@@ -163,4 +163,14 @@ $(function() {
   }); 
 
 
+
+  //toggle vakancy
+  $('.js-toggle-vakancy').on("click", function() {
+    $(this)
+      .closest('.b-vakancy')
+      .toggleClass('b-vakancy--active')
+      .find('.b-vakancy-body')
+      .slideToggle()
+  });
+
 });
