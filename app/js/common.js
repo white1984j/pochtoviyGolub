@@ -57,6 +57,49 @@ $(function() {
       }
     ]
   })
+  function initThanksSliderBg(){
+    if( $(window).width() > 991 ){
+      if( $('.b-thanks-slider--bg').hasClass('slick-initialized') )
+        $('.b-thanks-slider--bg').slick('unslick');
+    }else{
+      if( $('.b-thanks-slider--bg').hasClass('slick-initialized') )
+        return;
+      $('.b-thanks-slider--bg').slick({
+        slidesToShow: 4,
+        infinite: false,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              arrows: false,
+              dots: true
+            }
+          },{
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              arrows: false,
+              dots: true
+            },
+          },{
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              arrows: false,
+              dots: true
+            },
+          }
+        ]
+      })
+    }
+  }
+  initThanksSliderBg();
+  $(window).on('resize', function() {
+    initThanksSliderBg();
+  });
+    
 
 
   //b-believe-goods-slider
