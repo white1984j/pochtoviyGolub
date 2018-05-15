@@ -21,6 +21,9 @@
 		<li>
 			<a href="vakancies.php">Вакансии</a>
 		</li>
+		<li>
+			<a href="documents.php">Документы</a>
+		</li>
 	</ol>
 </body>
 </html>

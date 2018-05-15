@@ -16,7 +16,7 @@
 						</div>
 
 						<div class="section__title">
-							<h2>Автопарк</h2>
+							<h1>Автопарк</h1>
 						</div>
 						<div class="txt-c">
 							<div class="b-video">

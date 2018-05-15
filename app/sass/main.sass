@@ -842,4 +842,30 @@ textarea.b-input
 
 
 
+
+//documents
+.b-document
+	display: flex
+	margin: 10px 0px 40px
+.b-document__img
+	flex-basis: 40px
+	max-width: 40px
+	margin-top: 5px
+.b-document__txt
+	flex-basis: calc(100% - 40px - 20px)
+	max-width: calc(100% - 40px - 20px)
+	margin-left: 20px
+	font-size: 13px
+.b-document__name
+	font-size: 18px
+	font-weight: bold
+	color: #000
+	border-bottom: 1px dashed #000
+	transition: 0.3s
+	&:hover
+		color: $red
+		border-color: $red
+
+
+
 @import "media" // Always at the end

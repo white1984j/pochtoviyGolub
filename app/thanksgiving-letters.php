@@ -16,7 +16,7 @@
 						</div>
 
 						<div class="section__title">
-							<h2>Благодарственные письма</h2>
+							<h1>Благодарственные письма</h1>
 						</div>
 						<div class="b-thanks-slider--bg row d-flex flex-wrap js-gallery">
 							<div class="col-4">
