@@ -1028,6 +1028,49 @@ textarea.b-input
 
 
 
+//tabs
+.b-tabs-content__item
+	&:not(:first-child)
+		display: none
+.b-tabs-wrapper
+	margin: 30px 0 0
+.b-tabs
+	margin-bottom: 30px
+	margin-left: -10px
+	margin-right: -10px
+.b-tabs__item
+	display: inline-block
+	min-width: 100px
+	padding: 11px 20px
+	margin: 0 10px
+	color: $blue
+	font-size: 13px
+	text-align: center
+	border: 1px solid $blue
+	border-radius: 4px
+	cursor: pointer
+.b-tabs__item.active
+	background: $blue
+	color: $white
+
+
+
+//command
+.b-command-path
+	margin-bottom: 45px
+	text-align: center
+.b-command-path__img
+	margin-bottom: 12px
+	img
+		max-width: 100%
+.b-command-path__name
+	font-size: 15px
+	font-weight: bold
+	color: $black
+.b-command-path__position
+	font-size: 13px
+	color: $gray17
+
 
 
 @import "media" // Always at the end

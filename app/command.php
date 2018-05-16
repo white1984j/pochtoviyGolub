@@ -10,7 +10,7 @@
 									<a href="#" class="b-breadcrumbs__link">Главная</a>
 								</li>
 								<li class="b-breadcrumbs__li">
-									<a href="#" class="b-breadcrumbs__link">Автопарк</a>
+									<a href="#" class="b-breadcrumbs__link">Команда</a>
 								</li>
 							</ul>
 						</div>
@@ -21,110 +21,114 @@
 				<div class="max-w-950px">
 					<div class="container">
 						<div class="section__title">
-							<h1>Вакансии</h1>
+							<h1>Команда</h1>
 						</div>
-						<div class="b-vakancy">
-							<div class="b-vakancy-head">
-								<div class="d-inline-flex align-items-center js-toggle-vakancy">
-									<h4 class="b-vakancy__title">Водитель-экспедитор</h4>
-									<button class="b-vakancy-head__btn">
-										<i class="icon icon-arrow-white"></i>
-									</button>
-								</div>
-								<div>
-									<div class="b-vakancy__subtitle">Опыт работы: <b>не менее 2-х лет</b></div>
-									<div class="b-vakancy__subtitle">Зарплата: <b>по договоренности</b></div>
-								</div>
+						<div class="b-tabs-wrapper">
+							<div class="b-tabs">
+								<span class="b-tabs__item">Отдел 1</span>
+								<span class="b-tabs__item">Отдел 2</span>
+								<span class="b-tabs__item">Отдел 3</span>        
 							</div>
-							<div class="b-vakancy-body">
-								<b>Обязанности</b>
-								<ul>
-									<li>Организует работу водительского состава, транспортных средств.</li>
-									<li>Обеспечивает сменно-суточное планирование грузовых автоперевозок и его выполнение.</li>
-									<li>Анализирует и контролирует эксплуатационные показатели работы ТС, расходы эксплуатационных материалов, шин, топлива.</li>
-									<li>Обеспечивает сочетание экономических и административных методов руководства в решении эффективности работы автоколонны.</li>
-									<li>Обеспечивает выполнение договорных обязательств.</li>
-									<li>Ведет учетную и отчетную документацию по транспортным средствам и составу водителей.</li>
-								</ul>
-								<br>
-								<b>Требования</b>
-								<ul>
-									<li>Опыт работы c самосвалами на руководящей должности начальника автоколонны с численностью водительского состава не менее 100 человек</li>
-									<li>Возможны производственные командировки в другие регионы РФ</li>
-								</ul>
-								<br>
-								<b>Условия</b>
-								<ul>
-									<li>— Постоянная, полный день, работа на территории работодателя.</li>
-									<li>Работа предполагает командировки.</li>
-									<li>Отпуск, больничный.</li>
-									<li>Оплата сотовой связи.</li>
-									<li>Служебный автомобиль.</li>
-									<li>Транспортное предприятие находится в г. Сертолово. 40- часовая рабочая неделя со смещенными выходными.</li>
-									<li>Работа на территории работодателя.</li>
-									<li>Трудоустройство по ТК РФ.</li>
-								</ul>
-							</div>
-						</div>
-						<div class="b-vakancy">
-							<div class="b-vakancy-head">
-								<div class="d-inline-flex align-items-center js-toggle-vakancy">
-									<h4 class="b-vakancy__title">Начальник автоколонны</h4>
-									<button class="b-vakancy-head__btn">
-										<i class="icon icon-arrow-white"></i>
-									</button>
+							<div class="b-tabs-content">
+								<div class="b-tabs-content__item">
+									<div class="row d-flex flex-wrap">
+										<div class="col-md-4 col-sm-6 col-12">
+											<div class="b-command-path">
+												<div class="b-command-path__img">
+													<img src="img/command/command-1.png" alt="img">
+												</div>
+												<div class="b-command-path__name">Иванков Сергей Маратович</div>
+												<div class="b-command-path__position">Генеральный директор</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 col-12">
+											<div class="b-command-path">
+												<div class="b-command-path__img">
+													<img src="img/command/command-2.png" alt="img">
+												</div>
+												<div class="b-command-path__name">Серебрякова Кристина Сергеевна</div>
+												<div class="b-command-path__position">Менеджер по продажам</div> 
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 col-12">
+											<div class="b-command-path">
+												<div class="b-command-path__img">
+													<img src="img/command/command-3.png" alt="img">
+												</div>
+												<div class="b-command-path__name">Сырков Анатолий Семенович</div>
+												<div class="b-command-path__position">Руководитель по сбыту</div> 
+											</div>
+										</div>
+									</div>
 								</div>
-								<div>
-									<div class="b-vakancy__subtitle">Опыт работы: <b>не менее 2-х лет</b></div>
-									<div class="b-vakancy__subtitle">Зарплата: <b>по договоренности</b></div>
+								<div class="b-tabs-content__item">
+									<div class="row d-flex flex-wrap">
+										<div class="col-md-4 col-sm-6 col-12">
+											<div class="b-command-path">
+												<div class="b-command-path__img">
+													<img src="img/command/command-1.png" alt="img">
+												</div>
+												<div class="b-command-path__name">Иванков Сергей Маратович</div>
+												<div class="b-command-path__position">Генеральный директор</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 col-12">
+											<div class="b-command-path">
+												<div class="b-command-path__img">
+													<img src="img/command/command-2.png" alt="img">
+												</div>
+												<div class="b-command-path__name">Серебрякова Кристина Сергеевна</div>
+												<div class="b-command-path__position">Менеджер по продажам</div> 
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 col-12">
+											<div class="b-command-path">
+												<div class="b-command-path__img">
+													<img src="img/command/command-3.png" alt="img">
+												</div>
+												<div class="b-command-path__name">Сырков Анатолий Семенович</div>
+												<div class="b-command-path__position">Руководитель по сбыту</div> 
+											</div>
+										</div>
+									</div>
 								</div>
-							</div>
-							<div class="b-vakancy-body">
-								<b>Обязанности</b>
-								<ul>
-									<li>Организует работу водительского состава, транспортных средств.</li>
-									<li>Обеспечивает сменно-суточное планирование грузовых автоперевозок и его выполнение.</li>
-									<li>Анализирует и контролирует эксплуатационные показатели работы ТС, расходы эксплуатационных материалов, шин, топлива.</li>
-									<li>Обеспечивает сочетание экономических и административных методов руководства в решении эффективности работы автоколонны.</li>
-									<li>Обеспечивает выполнение договорных обязательств.</li>
-									<li>Ведет учетную и отчетную документацию по транспортным средствам и составу водителей.</li>
-								</ul>
-								<br>
-								<b>Требования</b>
-								<ul>
-									<li>Опыт работы c самосвалами на руководящей должности начальника автоколонны с численностью водительского состава не менее 100 человек</li>
-									<li>Возможны производственные командировки в другие регионы РФ</li>
-								</ul>
-								<br>
-								<b>Условия</b>
-								<ul>
-									<li>— Постоянная, полный день, работа на территории работодателя.</li>
-									<li>Работа предполагает командировки.</li>
-									<li>Отпуск, больничный.</li>
-									<li>Оплата сотовой связи.</li>
-									<li>Служебный автомобиль.</li>
-									<li>Транспортное предприятие находится в г. Сертолово. 40- часовая рабочая неделя со смещенными выходными.</li>
-									<li>Работа на территории работодателя.</li>
-									<li>Трудоустройство по ТК РФ.</li>
-								</ul>
+								<div class="b-tabs-content__item">
+									<div class="row d-flex flex-wrap">
+										<div class="col-md-4 col-sm-6 col-12">
+											<div class="b-command-path">
+												<div class="b-command-path__img">
+													<img src="img/command/command-1.png" alt="img">
+												</div>
+												<div class="b-command-path__name">Иванков Сергей Маратович</div>
+												<div class="b-command-path__position">Генеральный директор</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 col-12">
+											<div class="b-command-path">
+												<div class="b-command-path__img">
+													<img src="img/command/command-2.png" alt="img">
+												</div>
+												<div class="b-command-path__name">Серебрякова Кристина Сергеевна</div>
+												<div class="b-command-path__position">Менеджер по продажам</div> 
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 col-12">
+											<div class="b-command-path">
+												<div class="b-command-path__img">
+													<img src="img/command/command-3.png" alt="img">
+												</div>
+												<div class="b-command-path__name">Сырков Анатолий Семенович</div>
+												<div class="b-command-path__position">Руководитель по сбыту</div> 
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="section-pad-b">
-				<div class="container txt-c">
-					<div class="b-info">
-						<div class="b-info__title">По вопросам трудоустройства обращаться:</div>
-						<p>Звоните:</p>
-						<p><a href="tel:88311234567" class="b-info__tel">8 (831) 123-45-67</a></p>
-						<p><a href="tel:89201234567" class="b-info__tel">8-920-123-45-67</a></p>
-						<p>или</p>
-						<p><a href="mailto:hr@example.ru" class="b-info__email">hr@example.ru</a></p>
-					</div>
-				</div>
-			</section>
 
 
 

@@ -33,6 +33,9 @@
 		<li>
 			<a href="clients.php">Клиентам</a>
 		</li>
+		<li>
+			<a href="command.php">Команда</a>
+		</li>
 	</ol>
 </body>
 </html>

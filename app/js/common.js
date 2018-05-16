@@ -198,4 +198,13 @@ $(function() {
   });
 
 
+
+
+  //tabs
+  $(".b-tabs__item").click(function() {
+    $(this).closest('.b-tabs-wrapper').find(".b-tabs__item").removeClass("active").eq($(this).index()).addClass("active");
+    $(this).closest('.b-tabs-wrapper').find(".b-tabs-content__item").hide().eq($(this).index()).fadeIn()
+  }).eq(0).addClass("active");
+
+
 });
