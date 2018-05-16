@@ -27,6 +27,12 @@
 		<li>
 			<a href="history.php">История</a>
 		</li>
+		<li>
+			<a href="career.php">Карьера</a>
+		</li>
+		<li>
+			<a href="clients.php">Клиентам</a>
+		</li>
 	</ol>
 </body>
 </html>
