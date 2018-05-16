@@ -158,7 +158,36 @@
     margin-bottom: 30px
   .b-document
     margin: 0px 0 30px
-
+  .b-history-wrap
+    flex-direction: column
+    padding: 0
+    &:before
+      width: 1px
+      height: 100%
+      left: 9px
+  .b-history__year
+    margin: 10px 0
+    left: 40px
+    transform: (translateY(-50%) !important)
+    text-align: left
+    &:after
+      display: none
+  .b-history
+    margin: 5px 0
+    box-shadow: none
+    &:before
+      left: 10px
+      transform: translateX(-50%) translateY(30px)
+  .b-history__hidden
+    position: relative
+    width: calc(100% - 60px)
+    margin-left: 40px
+  .b-history-text__img
+    float: none
+  .b-history-hidden__close
+    right: 0
+    top: auto
+    bottom: 100%
 
   
 // ≥576px

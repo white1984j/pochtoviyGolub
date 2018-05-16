@@ -42,6 +42,7 @@ gulp.task('js', function() {
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/slick-carousel/slick/slick.min.js',
 		'app/libs/lightgallery/dist/js/lightgallery.min.js',
+		'app/libs/jquery.nicescroll/dist/jquery.nicescroll.min.js',
 		'app/js/common.js', // Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

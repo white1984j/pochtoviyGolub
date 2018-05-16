@@ -24,6 +24,9 @@
 		<li>
 			<a href="documents.php">Документы</a>
 		</li>
+		<li>
+			<a href="history.php">История</a>
+		</li>
 	</ol>
 </body>
 </html>

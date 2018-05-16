@@ -204,7 +204,7 @@ h2
 //header
 .b-header
 	background: $gray1
-	z-index: 1
+	z-index: 2
 .b-header__container
 	display: flex
 	flex-wrap: wrap
@@ -866,6 +866,133 @@ textarea.b-input
 		color: $red
 		border-color: $red
 
+
+
+//history
+.b-history-wrap
+	position: relative
+	display: flex
+	justify-content: space-around
+	margin: 50px 0
+	padding: 120px 0
+	&:before
+		content: ""
+		display: inline-block
+		position: absolute
+		left: 0
+		top: 50%
+		transform: translateY(-50%)
+		width: 100%
+		height: 1px
+		background: $blue7
+.b-history
+	display: inline-block
+	&:before
+		content: ""
+		display: inline-block
+		width: 20px
+		height: 20px
+		position: relative
+		left: 50%
+		top: 0%
+		transform: translateX(-50%) translateY(23px)
+		border-radius: 50%
+		background: $blue
+		box-shadow: 0 0 0 15px $gray4
+		cursor: pointer
+		z-index: 1
+	z-index: 1
+	&:nth-of-type(even)
+		.b-history__year
+			transform: translateX(-50%) translateY(-120px)
+			&:after
+				top: 45px
+	&:nth-of-type(odd)
+		.b-history__year
+			transform: translateX(-50%) translateY(100px)
+			&:after
+				bottom: 45px
+.b-history--active
+	z-index: 2
+.b-history__year
+	position: relative
+	width: 100px
+	text-align: center
+	left: 50%
+	transform: translateX(-50%)
+	font-size: 24px
+	font-weight: 300
+	&:after
+		content: ""
+		display: inline-block
+		position: absolute
+		left: 50%
+		transform: translateX(-50%)
+		width: 1px
+		height: 65px
+		background: $blue7
+
+.b-history__hidden
+	display: none
+	position: absolute
+	left: 0
+	top: 0
+	width: 100%
+	z-index: 2
+	cursor: default
+	&:after
+		content: ""
+		display: inline-block
+		width: 100%
+		height: 40px
+		position: absolute
+		left: 0
+		bottom: 0
+		background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 1%, rgba(236,237,244,1) 85%)
+		background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(236,237,244,1) 85%)
+		background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(236,237,244,1) 85%)
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ecedf4',GradientType=0 )
+.b-history-hidden__close
+	display: inline-block
+	position: absolute
+	right: -50px
+	top: 0
+	border: none
+	outline: none
+	background: none
+	&:focus
+		outline: none
+.b-history-text
+	display: inline-block
+	max-width: 100%
+	max-height: 340px
+	padding: 30px 20px 50px 20px
+	background: $gray4
+	overflow: hidden
+	border: 1px solid $blue7
+	box-shadow: 0px 19px 35px 0px rgba(36, 102, 163, 0.27)
+	z-index: 1
+.b-history-text__img
+	display: inline-block
+	float: left
+	margin: 5px 15px 15px 0
+.b-history-text__name
+	font-size: 16px
+	font-weight: bold
+	color: #000
+
+
+
+
+//scroll
+.nicescroll-rails
+	margin-top: 15px
+	width: (6px !important)
+	padding-right: (6px !important)
+	border-radius: 4px
+.nicescroll-cursors
+	float: (none !important)
+	cursor: pointer
 
 
 @import "media" // Always at the end

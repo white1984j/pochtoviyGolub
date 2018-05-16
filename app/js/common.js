@@ -173,4 +173,29 @@ $(function() {
       .slideToggle()
   });
 
+
+
+  //history
+  $('.b-history').on("click", function(e) {
+    if( e.target.closest('.b-history__hidden') ) return;
+    $(this).addClass('b-history--active').find('.b-history__hidden').slideToggle('fast', function() {
+      $('.b-history-text').getNiceScroll().resize();
+    });
+      
+  });
+  $('.b-history-hidden__close').on("click", function() {
+    $(this).closest('.b-history').removeClass('b-history--active').find('.b-history__hidden').slideUp('fast',function(){
+      $('.b-history-text').getNiceScroll().resize();
+    });
+  });
+
+  $('.b-history-text').niceScroll({
+    cursorcolor: "#0c7de5",
+    background: "#d5dee7",
+    autohidemode: false,
+    railpadding: { top: 0, right: 10, left: 0, bottom: 30 },
+    emulatetouch: true
+  });
+
+
 });

@@ -1,20 +1,25 @@
 	<? include('header.php'); ?>
 
 
-			<section class="section-pad-t--sm section-pad-b ">
+			<section class="section-pad-t--sm ">
 				<div class="max-w-950px">
 					<div class="container">
-						<div class="b-breadcrumbs">
+						<div class="b-breadcrumbs d-none d-sm-block">
 							<ul class="b-breadcrumbs__ul">
 								<li class="b-breadcrumbs__li">
 									<a href="#" class="b-breadcrumbs__link">Главная</a>
 								</li>
 								<li class="b-breadcrumbs__li">
-									<a href="#" class="b-breadcrumbs__link">Документы</a>
+									<a href="#" class="b-breadcrumbs__link">Автопарк</a>
 								</li>
 							</ul>
 						</div>
-
+					</div>
+				</div>
+			</section>
+			<section class="section-pad-b ">
+				<div class="max-w-950px">
+					<div class="container">
 						<div class="section__title">
 							<h1>Документы</h1>
 						</div>
