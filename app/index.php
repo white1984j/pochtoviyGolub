@@ -39,6 +39,9 @@
 		<li>
 			<a href="contacts.php">Контакты</a>
 		</li>
+		<li>
+			<a href="about-company.php">О компании</a>
+		</li>
 	</ol>
 </body>
 </html>

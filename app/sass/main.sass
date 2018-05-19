@@ -72,6 +72,8 @@ p
 
 .p-0
 	padding: 0
+.p-t-15
+	padding-top: 15px
 .mar-t-20
 	margin-top: 20px
 
@@ -95,9 +97,16 @@ p
 	width: 860px
 	max-width: 100%
 	margin: auto
+.max-w-580px
+	width: 580px
+	max-width: 100%
+	margin: auto
 .bg-gray
 	background: $gray4
 
+
+.txt-sm
+	font-size: 13px
 
 //btns
 .btn
@@ -200,6 +209,8 @@ h2
 	font-weight: 300
 .section--gray
 	background: $gray10
+.section--gray2
+	background: $gray18
 .section--white
 	background: $white
 
@@ -1104,6 +1115,32 @@ textarea.b-input
 	min-width: 30px
 
 
+
+//about company
+.b-about-company
+	display: flex
+	padding: 15px
+	min-height: 180px
+	text-align: center
+	justify-content: center
+	align-items: center
+	color: $white
+	font-size: 18px
+	font-weight: 300
+	&:hover
+		color: $white
+	&:nth-child(1)
+		background: $blue
+	&:nth-child(2)
+		background: $blue3
+	&:nth-child(3)
+		background: $blue5
+	&:nth-child(4)
+		background: $blue3
+	&:nth-child(5)
+		background: $blue5
+	&:nth-child(6)
+		background: $blue
 
 
 @import "media" // Always at the end
