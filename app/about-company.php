@@ -10,7 +10,7 @@
 									<a href="#" class="b-breadcrumbs__link">Главная</a>
 								</li>
 								<li class="b-breadcrumbs__li">
-									<a href="#" class="b-breadcrumbs__link">Автопарк</a>
+									<a href="#" class="b-breadcrumbs__link">О компании</a>
 								</li>
 							</ul>
 						</div>
@@ -21,7 +21,7 @@
 				<div class="max-w-950px">
 					<div class="container">
 						<div class="section__title">
-							<h1>Вакансии</h1>
+							<h1>О компании</h1>
 						</div>
 						<div class="d-flex flex-wrap row no-gutters">
 							<a href="#" class="b-about-company col-12 col-md-4">Автопарк</a>
