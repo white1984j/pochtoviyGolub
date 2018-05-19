@@ -60,7 +60,7 @@
           </ul> 
           <a href="tel:88311234567" class="b-phone d-none d-md-inline-flex">8 (831) 123-45-67</a>
         </div>
-        <a href="#" class="b-header__request-call col-md-auto col-12">ЗАКАЗАТЬ ЗВОНОК</a>
+        <a href="#order-call" class="b-header__request-call mg-pp col-md-auto col-12">ЗАКАЗАТЬ ЗВОНОК</a>
       </div>
     </header>
     <main class="b-main">

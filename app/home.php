@@ -5,7 +5,7 @@
 						<div class="b-main-section__title">
 							<h1>Автомобильные грузоперевозки</h1>
 						</div>
-						<a href="#" class="btn btn--red">ПОЛУЧИТЬ РАСЧЕТ</a>
+						<a href="#calc-transportations" class="btn btn--red mg-pp">ПОЛУЧИТЬ РАСЧЕТ</a>
 						</div>
 					</div>
 				<div class="b-main-section__footer">

@@ -207,4 +207,25 @@ $(function() {
   }).eq(0).addClass("active");
 
 
+  //mg-pp
+  $('.mg-pp').magnificPopup({
+    closeMarkup: '<button class="b-modal__close"><i class="icon icon-close-gray"></i></button>',
+    callbacks: {
+      open: function() {
+        $('.b-modal__close').on('click', function() {
+          $.magnificPopup.close();
+        });
+      },
+    }
+  });
+
+
+  //remove error label
+  $('.b-input').on('focus', function() {
+    if( $(this).closest('.b-label--error') )
+      $(this).closest('.b-label--error').removeClass('b-label--error')
+
+  });
+
+
 });

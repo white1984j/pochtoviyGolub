@@ -543,6 +543,12 @@ h3
 .b-label
 	display: block
 	margin-bottom: 28px
+.b-label--error
+	.b-input
+		border-color: $red3
+		background: $red4
+	.b-label__error-txt
+		display: block
 .b-input
 	display: block
 	width: 100%
@@ -559,6 +565,10 @@ h3
 textarea.b-input
 	min-height: 110px
 	resize: none
+.b-label__error-txt
+	display: none
+	font-size: 11px
+	color: $red
 
 
 
@@ -1223,6 +1233,35 @@ div[class^="col"]:not(:nth-last-child(1)):not(:nth-last-child(2))
 	margin-top: 20px
 	border-top: 1px dashed $gray19
 	font-size: 13px
+
+
+
+//modal
+.b-modal
+	position: relative
+	width: 470px	
+	max-width: 100%
+	margin: auto
+	padding: 40px 75px
+	background: $gray10
+	box-shadow: 0px 19px 35px 0px rgba(0, 0, 0, 0.29)
+.b-modal__head
+	margin-bottom: 30px
+	font-size: 30px
+	font-weight: 300
+	text-align: center
+.mfp-content
+	padding: 50px 0
+.b-modal__close
+	display: inline-block
+	position: absolute
+	bottom: 100%
+	top: auto
+	left: 100%
+	color: $gray9
+	font-size: 40px
+	border: none
+	background: none
 
 
 @import "media" // Always at the end
