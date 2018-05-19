@@ -48,6 +48,9 @@
 		<li>
 			<a href="articles.php">Статьи</a>
 		</li>
+		<li>
+			<a href="articles-detailed.php">Статья - детально</a>
+		</li>
 	</ol>
 </body>
 </html>
