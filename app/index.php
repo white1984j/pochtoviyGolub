@@ -13,6 +13,9 @@
 			<a href="transportation-russia.php">Перевозка по России</a>
 		</li>
 		<li>
+			<a href="transportation-sng.php">Перевозка по СНГ</a>
+		</li>
+		<li>
 			<a href="autopark.php">Автопарк</a>
 		</li>
 		<li>

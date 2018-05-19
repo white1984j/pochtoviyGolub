@@ -75,22 +75,26 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-12 col-sm-6">
-								<h3>Сотрудничество</h3>
-								<div class="txt-sm">
-									<p><b>Отдел снабжения:</b> <a href="mailto:example@mail.com" class="link-black">example@mail.com</a></p>
-									<p><b>Продажа транспорта:</b> <a href="mailto:example@mail.com" class="link-black">example@mail.com</a></p>
-									<p><b>Приёмная:</b> <a href="mailto:example@mail.com" class="link-black">example@mail.com</a></p>
+								<div class="m-15-0">
+									<h3>Сотрудничество</h3>
+									<div class="txt-sm">
+										<p><b>Отдел снабжения:</b> <a href="mailto:example@mail.com" class="link-black">example@mail.com</a></p>
+										<p><b>Продажа транспорта:</b> <a href="mailto:example@mail.com" class="link-black">example@mail.com</a></p>
+										<p><b>Приёмная:</b> <a href="mailto:example@mail.com" class="link-black">example@mail.com</a></p>
+									</div>
 								</div>
 							</div>
 							<div class="col-12 col-sm-6">
-								<h3>Трудоустройство</h3>
-								<div class="d-inline-flex align-items-start txt-sm">
-									<div>
-										<b>Отдел кадров:&nbsp;</b> 
-									</div>
-									<div>
-										<p><a href="tel:+78311234567" class="link-black">+7 (831) 123-45-67</a></p>
-										<p><a href="mailto:example@mail.com" class="link-black">example@mail.com</a></p>
+								<div class="m-15-0">
+									<h3>Трудоустройство</h3>
+									<div class="d-inline-flex align-items-start txt-sm">
+										<div>
+											<b>Отдел кадров:&nbsp;</b> 
+										</div>
+										<div>
+											<p><a href="tel:+78311234567" class="link-black">+7 (831) 123-45-67</a></p>
+											<p><a href="mailto:example@mail.com" class="link-black">example@mail.com</a></p>
+										</div>
 									</div>
 								</div>
 							</div>
