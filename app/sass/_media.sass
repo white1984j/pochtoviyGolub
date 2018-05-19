@@ -197,6 +197,10 @@
   .b-map__txt
     padding: 25px 30px
     margin: 35px 15px
+  div[class^="col"]:not(:nth-last-child(1))
+    .b-article-preview
+      padding-bottom: 30px
+      border-bottom: 1px dashed $gray19
 
   
 // ≥576px
@@ -220,6 +224,13 @@
   .b-tabs__item
     width: 100%
     margin: 0 0 20px 0
+  .b-pagination__item
+    &:first-child
+      .b-pagination__link
+        margin-right: 0px
+    &:last-child
+      .b-pagination__link
+        margin-left: 0px
         
 
 

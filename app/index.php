@@ -45,6 +45,9 @@
 		<li>
 			<a href="about-company.php">О компании</a>
 		</li>
+		<li>
+			<a href="articles.php">Статьи</a>
+		</li>
 	</ol>
 </body>
 </html>

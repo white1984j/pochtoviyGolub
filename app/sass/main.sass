@@ -1161,4 +1161,63 @@ textarea.b-input
 		background: $blue
 
 
+//pagination
+.b-pagination
+	margin: 10px 0
+.b-pagination__list
+	list-style: none
+	padding: 0px
+	margin: 0px
+.b-pagination__item
+	display: inline-block
+	&:first-child,
+	&:last-child
+		.b-pagination__link--disabled
+			color: $gray21
+	&:first-child
+		.b-pagination__link
+			padding-left: 0
+			margin-right: 15px
+	&:last-child
+		.b-pagination__link
+			padding-right: 0
+			margin-left: 15px
+.b-pagination__link
+	display: inline-block
+	padding: 6px 12px
+	font-size: 13px
+	color: $black
+.b-pagination__link--active
+	background: $blue
+	border-radius: 3px
+	color: $white
+	pointer-events: none
+.b-pagination__link--disabled
+	pointer-events: none
+
+
+//news
+.b-article-preview
+	margin-bottom: 35px
+	font-size: 13px
+div[class^="col"]:not(:nth-last-child(1)):not(:nth-last-child(2))
+	.b-article-preview
+		padding-bottom: 30px
+		border-bottom: 1px dashed $gray19
+.b-article-preview__name
+	display: inline-block
+	margin-bottom: 10px
+	font-size: 18px
+	line-height: 1.2
+	font-weight: bold
+	color: $black
+.b-article-preview__read-more
+	margin-top: 8px
+
+.b-article__date
+	margin-bottom: 7px
+	font-size: 13px
+	color: $gray20
+
+
 @import "media" // Always at the end
