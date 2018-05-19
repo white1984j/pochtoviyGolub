@@ -36,6 +36,9 @@
 		<li>
 			<a href="command.php">Команда</a>
 		</li>
+		<li>
+			<a href="contacts.php">Контакты</a>
+		</li>
 	</ol>
 </body>
 </html>
