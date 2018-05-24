@@ -36,7 +36,7 @@
 									<span class="b-thanks-slider-path__name">Федеральная служба по надзору в сфере грузоперевозок</span>
 								</a>
 							</div>
-							<div class="col-4">
+<!-- 							<div class="col-4">
 								<a href="img/thanks/thanks-a3.png"  class="b-thanks-slider-path js-lightgallery-item">
 									<img src="img/thanks/thanks-a3.png" alt="img">
 									<span class="b-thanks-slider-path__name">Федеральная служба по надзору в сфере грузоперевозок</span>
@@ -59,7 +59,7 @@
 									<img src="img/thanks/thanks-a3.png" alt="img">
 									<span class="b-thanks-slider-path__name">Федеральная служба по надзору в сфере грузоперевозок</span>
 								</a>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>

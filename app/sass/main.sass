@@ -156,6 +156,12 @@ h3
 
 
 //slick
+.slick-initialized
+	.slick-list,
+	.slick-track
+		min-width: 100%
+	.slick-slide
+		max-width: (none !important)
 .slick-slide
 	&:focus
 		outline: none
@@ -1060,14 +1066,20 @@ textarea.b-input
 	font-size: 24px
 	font-weight: 300
 	text-align: center
+	border: 2px solid 
 	transition: 0.3s
 	&:nth-child(1)
 		background: $blue
+		border-color: $blue
+		&:hover
+			color: $blue
+			background: none
 	&:nth-child(2)
 		background: $blue3
-	&:hover
-		color: $white
-		background: $blue4
+		border-color: $blue3
+		&:hover
+			color: $blue3
+			background: none
 
 
 
@@ -1155,20 +1167,44 @@ textarea.b-input
 	color: $white
 	font-size: 18px
 	font-weight: 300
-	&:hover
-		color: $white
+	border: 2px solid
+	transition: 0.3s
 	&:nth-child(1)
 		background: $blue
+		border-color: $blue
+		&:hover
+			color: $blue
+			background: none
 	&:nth-child(2)
 		background: $blue3
+		border-color: $blue3
+		&:hover
+			color: $blue3
+			background: none
 	&:nth-child(3)
 		background: $blue5
+		border-color: $blue5
+		&:hover
+			color: $blue5
+			background: none
 	&:nth-child(4)
 		background: $blue3
+		border-color: $blue3
+		&:hover
+			color: $blue3
+			background: none
 	&:nth-child(5)
 		background: $blue5
+		border-color: $blue5
+		&:hover
+			color: $blue5
+			background: none
 	&:nth-child(6)
 		background: $blue
+		border-color: $blue
+		&:hover
+			color: $blue
+			background: none
 
 
 //pagination
